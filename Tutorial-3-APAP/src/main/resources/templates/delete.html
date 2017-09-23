@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Delete Student by NPM</title>
+	</head>
+	<body>
+		<h3>Data Student</h3>
+		<h3 th:text="'NPM = ' + ${deleted.npm}"> Student NPM </h3>
+		<h3 th:text="'Name = ' + ${deleted.name}"> Student Name </h3>
+		<h3 th:text="'GPA = ' + ${deleted.gpa}"> Student GPA </h3>
+		<h3>Telah Berhasil Dihapus!</h3>
+	</body>
+</html>
